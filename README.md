@@ -24,7 +24,7 @@ Student at **Metropolitan University**
 
 ## 📝 Work Experience
 **Blogging**
--  Couple Blog, Tour Blog
+-  Personal Blog, Tour Blog
 
 **Mechanic**
 -  Bus, Tractor, Human All
