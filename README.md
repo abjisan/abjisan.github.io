@@ -10,7 +10,7 @@ Student at **Metropolitan University**
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
 # 📊 GitHub Stats:
-![](https://nirzak-streak-stats.vercel.app/?user=abjisan&theme=dark&hide_border=false)<br/>
+![](https://raw.githubusercontent.com/abjisan/abjisan.github.io/refs/heads/main/assets/img/snake.svg)<br/>
 
 ## 🎓 Education
 - **SSC**, Science | Hazi Abdus Sattar High School (_Dec 2020_)								       		
