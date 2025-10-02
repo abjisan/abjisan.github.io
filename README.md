@@ -18,7 +18,7 @@ Student at **Metropolitan University**
 
 ## 🎯 Skills
 - **Car & Bike Driving**
-- **Pro Frrefire & COC Player**
+- **Pro Freefire & COC Player**
 - **Tuition Expert - (ALL Subject)**
 - **Professional Footballer, Cricketer**
 
