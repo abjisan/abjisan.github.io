@@ -1,4 +1,27 @@
-/* ─── Full-screen overlay ──────────────────────────── */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jisan - Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #0f0f0f;
+    }
+
+    /* ─── Full-screen overlay ──────────────────────────── */
     #landing {
       position: fixed;
       inset: 0;
@@ -151,3 +174,50 @@
     </div>
 
   </div>
+
+  <script>
+    // Landing page animation and functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const landingElement = document.getElementById('landing');
+      const enterBtn = document.getElementById('enter-btn');
+      const textBg = document.getElementById('text-bg');
+
+      // Populate text background with animated text
+      function populateTextBg() {
+        const texts = ['JISAN', 'JISAN', 'JISAN', 'JISAN'];
+        textBg.innerHTML = '';
+        
+        texts.forEach(text => {
+          const row = document.createElement('div');
+          row.className = 't-row';
+          
+          const span = document.createElement('span');
+          span.className = 't-span';
+          span.textContent = text.repeat(15);
+          
+          row.appendChild(span);
+          textBg.appendChild(row);
+        });
+      }
+
+      populateTextBg();
+
+      // Handle enter button click
+      enterBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        landingElement.classList.add('hide');
+        // Optional: Navigate after animation completes
+        setTimeout(() => {
+          // window.location.href = '#main'; // Uncomment when ready
+        }, 550);
+      });
+
+      // Optional: Auto-hide landing after 8 seconds
+      // setTimeout(() => {
+      //   landingElement.classList.add('hide');
+      // }, 8000);
+    });
+  </script>
+
+</body>
+</html>
